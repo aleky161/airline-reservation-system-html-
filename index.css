@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  ul.catalog {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  ul.catalog li {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  ul.catalog li img {
+    width: 100%;
+  }
+  
+  ul.catalog li h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #2c3e50;
+  }
+  
+  ul.catalog li p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  body {
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
